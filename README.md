@@ -144,7 +144,7 @@ ENTRYPOINT_ADDRESS=0x0000000071727De22E5E9d8BAf0edAc6f37da032
 DEPOSIT_AMOUNT=0.1
 ```
 
-**⚠️ Important:** Never commit your `.env` file! It contains private keys.
+
 
 ---
 
@@ -450,32 +450,7 @@ forge install foundry-rs/forge-std
 
 ---
 
-## 🔐 Security Notes
 
-- ⚠️ **Never commit `.env` file** - Contains private keys!
-- ⚠️ **Never share your private key** - Anyone with it can steal your funds
-- ⚠️ **Test on Sepolia first** - Don't deploy to mainnet without auditing
-- ⚠️ **Fund SmartAccount** - It needs ETH to pay for gas
-- ✅ **Use official EntryPoint** - Already deployed and audited
-
----
-
-## 🧪 Testing
-
-Run Foundry tests:
-
-```bash
-# Run all tests
-forge test
-
-# Run with verbosity
-forge test -vvv
-
-# Run specific test
-forge test --match-contract SmartAccountTest
-```
-
----
 
 ## 📚 Learn More
 
