@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { ethers } from 'ethers';
 import { TokenForm, TokenInput } from './components/TokenForm';
 import { DeploymentStatus } from './components/DeploymentStatus';
